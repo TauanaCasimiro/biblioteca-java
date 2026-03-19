@@ -25,8 +25,9 @@ Main.java → executa o programa
 
 ## Exemplo de saída
 
-Dom Casmurro - Machado de Assis (1899)  
+Dom Casmurro - Machado de Assis (1899)
 1984 - George Orwell (1949)
+![Demonstração do Sistema](./resultado.png)
 
 ## Autor
 

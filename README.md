@@ -10,7 +10,7 @@ Simular um pequeno sistema de biblioteca onde é possível:
 - Adicionar livros em uma biblioteca
 - Listar livros cadastrados
 
-##  Tecnologias Utilizadas
+##  Tech Utilizadas
 
 - Java
 - VS Code

@@ -33,6 +33,15 @@ Dom Casmurro - Machado de Assis (1899)
 
 Projeto desenvolvido para estudo de Programação Orientada a Objetos.
 
+## Demonstração do Sistema
+
+### Versão 1.0 (Código Estático)
+![Primeiro Resultado](./Resultado.png)
+
+### Versão 2.0 (Interface Interativa)
+![Interface Interativa](./Interativo.png)
+*O sistema agora permite que o usuário digite os dados do livro pelo terminal.*
+
 ### Demonstração do Sistema Interativo
 ![Interface Interativa](./Interativo.png)
 *O sistema agora permite que o usuário digite os dados do livro pelo terminal.*

@@ -1,16 +1,25 @@
+import java.util.Scanner;
+
 public class Main {
-
     public static void main(String[] args) {
+        try (Scanner scanner = new Scanner(System.in)) {
+            Biblioteca biblioteca = new Biblioteca();
 
-        Biblioteca biblioteca = new Biblioteca();
+            System.out.println("Digite o título do livro:");
+            String titulo = scanner.nextLine();
 
-        Livro livro1 = new Livro("Dom Casmurro", "Machado de Assis", 1899);
-        Livro livro2 = new Livro("1984", "George Orwell", 1949);
+            System.out.println("Digite o autor do livro:");
+            String autor = scanner.nextLine();
 
-        biblioteca.adicionarLivro(livro1);
-        biblioteca.adicionarLivro(livro2);
-biblioteca.listarLivros();
-        System.out.println("Livros adicionados com sucesso!");
-    }
+            System.out.println("Digite o ano do livro:");
+            int ano = scanner.nextInt();
 
+            Livro novoLivro = new Livro(titulo,autor,ano);
+            biblioteca.adicionarLivro(novoLivro);
+
+            biblioteca.listarLivros();
+        }
+        System.out.println("Livro adicionado com sucesso!");
 }
+}
+    
